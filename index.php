@@ -10,7 +10,7 @@ function checkLeeftijd($leeftijd)
     {
         echo "tussen 16 en 18 jaar: ${leeftijd} jaar, je hebt ouderlijk toezicht nodig." . PHP_EOL;
     }
-    else if($leeftijd >= 18)
+    else if($leeftijd > 18)
     {
         echo "18 of ouder: “Je bent al ${leeftijd} jaar. Geniet van de film!" .PHP_EOL;
     }
